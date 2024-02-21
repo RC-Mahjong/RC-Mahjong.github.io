@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <title>Ryanzou Chankan Club</title>
+        
+        <style>
+           body{font-family: sans-serif;font-size: 15px;font-weight: 400; line-height: 1.5em;}
+            .inner_main_menu {margin: 0 auto; width: 1300px;}    
+            .inner_main_menu ul{margin: 0; padding: 30px 0 0; list-style: none;text-align: right;}    
+            .inner_main_menu ul li{float: none; display: inline-block;position: relative}    
+            .inner_main_menu ul li:nth-child(1){float: left;}    
+            .inner_main_menu ul li:nth-child(2){float: left;}     
+            .inner_main_menu ul li a{color: #262626; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 100px;}    
+            .inner_main_menu ul li a:hover{color: #6FDA44}  
+            .inner_main_menu ul li ul{position: absolute; top: 40px; left: -9999999px; width: 240px;background: #262626; padding: 0;}  
+            .inner_main_menu ul li:hover ul{left: 0px;}   
+            .inner_main_menu ul li ul li{float: left;width: 100%;text-align: left;}  
+            .inner_main_menu ul li ul li a{color: #fff;text-transform: capitalize; font-size: 15px;}  
+            .inner_main_menu ul li ul li a:hover{background: #ddd; color: #262626;}  
+            .inner_main_menu ul li:hover a{color: #6FDA44}  
+            .inner_main_menu ul li:hover ul li a{color: #ffffff}  
+            .inner_main_menu ul li ul li a:hover{color: #262626}  
+            .inner_main_menu ul li ul li:hover a{background: #ddd; color: #262626;}
+            .inner_main_menu{cursor: pointer;}
+            #main_menu{width: 100%; position: relative;}
+            .logo_area{width: 100px; height: 100px; position: absolute; left: 50%; top: 0; content: ""; margin-left: -50px; text-align: center;}
+            .logo_area a{cursor: pointer;}
+            .content p{padding-top: 50px; display: flex; justify-content: center; align-items: center}
+            .content a{padding-top: 50px; display: flex; justify-content: center; align-items: center}
+        </style>
+    </head>
+    <body>
+        <div id="main_menu">
+            <div class="logo_area">
+                <a id="defaultOpen" class="navigation" onclick="openContent(event, 'full_logo')"><img src="logo.png" alt=""></a>
+            </div>
+            <div class="inner_main_menu">
+                <ul id="menu">
+                    <li><a class="navigation" onclick="openContent(event, 'ueber_uns')">Über uns</a></li>
+                    <li><a>PDFs</a>
+                        <ul>
+                            <li><a class="navigation" onclick="openContent(event, 'deutsche_pdfs')">Deutsch</a></li>
+                            <li><a class="navigation" onclick="openContent(event, 'englische_pdfs')">English</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="navigation">Spielort</a></li>
+                    <li><a class="navigation" onclick="openContent(event, 'social_links')">Socials</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="ueber_uns" class="content">
+            <p>Wir sind ein Mahjong Club.</p>
+        </div>
+        <div id="deutsche_pdfs" class="content">
+            <a href="Deutsch_Etikette.pdf" target="_blank">Deutsch_Etikette.pdf</a>
+            <a href="Deutsch_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Deutsch_Ryanzou_Chankan_Ruleset.pdf</a>
+        </div>
+        <div id="englische_pdfs" class="content">
+            <a href="English_Etiquette.pdf" target="_blank">English_Etiquette.pdf</a>
+            <a href="English_Ryanzou_Chankan_Ruleset.pdf" target="_blank">English_Ryanzou_Chankan_Ruleset.pdf</a>
+        </div>
+        <div id="full_logo" class="content">
+            <a><img src="full_logo.png" alt=""></a>
+        </div>
+        <div id="social_links" class="content">
+            <a href="https://discord.com/channels/764086995940016169" target="_blank">Discord</a>
+        </div>
+        
+        
+    <script src="navigation.js"></script>
+    </body>
+</html>
