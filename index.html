@@ -28,7 +28,7 @@
             #main_menu{width: 100%; position: relative;}
             .logo_area{width: 100px; height: 100px; position: absolute; left: 50%; top: 0; content: ""; margin-left: -50px; text-align: center;}
             .logo_area a{cursor: pointer;}
-            .content p{padding-top: 50px; display: flex; justify-content: center; align-items: center}
+            .content p{padding-left: 20%; padding-right: 20%; padding-top: 50px; display: flex; justify-content: center; align-items: center}
             .content a{padding-top: 50px; display: flex; justify-content: center; align-items: center}
         </style>
     </head>
@@ -40,6 +40,7 @@
             <div class="inner_main_menu">
                 <ul id="menu">
                     <li><a class="navigation" onclick="openContent(event, 'ueber_uns')">Über uns</a></li>
+                    <li><a class="navigation" onclick="openContent(event, 'about_us')">About us</a></li>
                     <li><a>PDFs</a>
                         <ul>
                             <li><a class="navigation" onclick="openContent(event, 'deutsche_pdfs')">Deutsch</a></li>
@@ -53,7 +54,12 @@
         </div>
         
         <div id="ueber_uns" class="content">
-            <p>Willkommen auf unserer Seite.
+            <p>Willkommen auf unserer Seite.\n
+Wir sind ein Riichi-Mahjongclub in Basel und möchten gerne regelmässig  gemeinsam Mahjong spielen und so offline-Spiele in unserer Gegend ermöglichen, die nochmal eine eigene Dynamik im Vergleich zum allgemein zugänglichen Online-Mahjong haben.\n
+Gerne möchten wir auch viele neue Spieler*innen für Mahjong begeistern, ihnen beim Erlernen des Spiels helfen und so die Community erweitern und bei anderen die Freude an der Tiefe, Komplexität, Strategie und Etikette des Spiels wecken, sodass wir alle gemeinsam neue Aspekte davon schätzen lernen können.</p>
+        </div>
+        <div id="about_us" class="content">
+            <p>Welcome to our site.
 Wir sind ein Riichi-Mahjongclub in Basel und möchten gerne regelmässig  gemeinsam Mahjong spielen und so offline-Spiele in unserer Gegend ermöglichen, die nochmal eine eigene Dynamik im Vergleich zum allgemein zugänglichen Online-Mahjong haben.
 Gerne möchten wir auch viele neue Spieler*innen für Mahjong begeistern, ihnen beim Erlernen des Spiels helfen und so die Community erweitern und bei anderen die Freude an der Tiefe, Komplexität, Strategie und Etikette des Spiels wecken, sodass wir alle gemeinsam neue Aspekte davon schätzen lernen können.</p>
         </div>
