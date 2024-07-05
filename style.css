@@ -1,0 +1,147 @@
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.inner_main_menu {
+    margin: 0 auto;
+    width: 1300px;
+}    
+
+.inner_main_menu ul{
+    margin: 0;
+    padding: 30px 0 0;
+    list-style: none;
+    text-align: right;
+}    
+
+.inner_main_menu ul li{
+    float: none;
+    display: inline-block;
+    position: relative
+}  
+
+.inner_main_menu ul li:nth-child(1){
+    float: left;
+}    
+
+.inner_main_menu ul li:nth-child(2){
+    float: left;
+}     
+
+.inner_main_menu ul li a{
+    color: #262626;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 100px;
+}    
+
+.inner_main_menu ul li a:hover{
+    color: #6FDA44;
+}  
+
+.inner_main_menu ul li ul{
+    position: absolute;
+    top: 40px;
+    left: -9999999px;
+    width: 240px;
+    background: #262626;
+    padding: 0;
+}  
+
+.inner_main_menu ul li:hover ul{
+    left: 0px;
+}   
+
+.inner_main_menu ul li ul li{
+    float: left;
+    width: 100%;
+    text-align: left;
+}  
+
+.inner_main_menu ul li ul li a{color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}  
+
+.inner_main_menu ul li ul li a:hover{
+    background: #ddd;
+    color: #262626;
+}  
+
+.inner_main_menu ul li:hover a{
+    color: #6FDA44
+}  
+
+.inner_main_menu ul li:hover ul li a{
+    color: #ffffff
+}  
+
+.inner_main_menu ul li ul li a:hover{
+    color: #262626
+}  
+
+.inner_main_menu ul li ul li:hover a{
+    background: #ddd;
+    olor: #262626;
+}
+
+.inner_main_menu{
+    cursor: pointer;
+}
+
+#main_menu{
+    width: 100%;
+    position: relative;
+}
+
+.logo_area{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: "";
+    margin-left: -50px;
+    text-align: center;
+}
+.logo_area a{
+    cursor: pointer;
+}
+.content p{
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
+    align-items: center
+}
+    
+.content a{color: blue;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.content a:hover {cursor:grab;
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+.content h2{
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: left;
+    align-items: left
+}
+
+.content h3{
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: left;
+    align-items: left
+}

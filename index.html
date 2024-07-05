@@ -5,32 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <title>Ryanzou Chankan Club</title>
-        
-        <style>
-           body{font-family: sans-serif;font-size: 15px;font-weight: 400; line-height: 1.5em;}
-            .inner_main_menu {margin: 0 auto; width: 1300px;}    
-            .inner_main_menu ul{margin: 0; padding: 30px 0 0; list-style: none;text-align: right;}    
-            .inner_main_menu ul li{float: none; display: inline-block;position: relative}    
-            .inner_main_menu ul li:nth-child(1){float: left;}    
-            .inner_main_menu ul li:nth-child(2){float: left;}     
-            .inner_main_menu ul li a{color: #262626; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 100px;}    
-            .inner_main_menu ul li a:hover{color: #6FDA44}  
-            .inner_main_menu ul li ul{position: absolute; top: 40px; left: -9999999px; width: 240px;background: #262626; padding: 0;}  
-            .inner_main_menu ul li:hover ul{left: 0px;}   
-            .inner_main_menu ul li ul li{float: left;width: 100%;text-align: left;}  
-            .inner_main_menu ul li ul li a{color: #fff;text-transform: capitalize; font-size: 15px;}  
-            .inner_main_menu ul li ul li a:hover{background: #ddd; color: #262626;}  
-            .inner_main_menu ul li:hover a{color: #6FDA44}  
-            .inner_main_menu ul li:hover ul li a{color: #ffffff}  
-            .inner_main_menu ul li ul li a:hover{color: #262626}  
-            .inner_main_menu ul li ul li:hover a{background: #ddd; color: #262626;}
-            .inner_main_menu{cursor: pointer;}
-            #main_menu{width: 100%; position: relative;}
-            .logo_area{width: 100px; height: 100px; position: absolute; left: 50%; top: 0; content: ""; margin-left: -50px; text-align: center;}
-            .logo_area a{cursor: pointer;}
-            .content p{padding-left: 20%; padding-right: 20%; padding-top: 50px; display: flex; justify-content: center; align-items: center}
-            .content a{padding-top: 50px; display: flex; justify-content: center; align-items: center}
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="main_menu">
@@ -57,46 +32,83 @@
                             <li><a class="navigation" onclick="openContent(event, 'gaming_venue')">Gaming venue</a></li>
                         </ul>
                     </li>
-                    <li><a class="navigation" onclick="openContent(event, 'social_links')">Socials</a></li>
+                    <li><a>Links</a>
+                        <ul>
+                            <li><a class="navigation" onclick="openContent(event, 'deutsche_links')">Deutsch</a></li>
+                            <li><a class="navigation" onclick="openContent(event, 'englische_links')">English</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
         
         <div id="ueber_uns" class="content">
-            <p>Willkommen auf unserer Seite.<br>
+            <p style="padding-top: 50px;" >Willkommen auf unserer Seite.<br>
                 Wir sind ein Riichi-Mahjongclub in Basel und möchten gerne regelmässig  gemeinsam Mahjong spielen und so offline-Spiele in unserer Gegend ermöglichen, die nochmal eine eigene Dynamik im Vergleich zum allgemein zugänglichen Online-Mahjong haben.<br>
                 Gerne möchten wir auch viele neue Spieler*innen für Mahjong begeistern, ihnen beim Erlernen des Spiels helfen und so die Community erweitern und bei anderen die Freude an der Tiefe, Komplexität, Strategie und Etikette des Spiels wecken, sodass wir alle gemeinsam neue Aspekte davon schätzen lernen können.</p>
+            <h2>Über Mahjong:</h2>
+            <p>Mahjong ist ein Spiel mit Steinen für vier Spieler*innen, stammt ursprünglich aus China und hat sich seitdem zu vielen verschiedenen Varianten entwickelt (Das Solitärspiel auf Handy und Computer hat nur Namen und das Design der Steine übernommen, spieltechnisch jedoch nichts mit dem eigentlichen Mahjong gemeinsam). Wir spielen die japanische Variante, von einigen auch Riichi Mahjong genannt.</p>
+
+            <h3>Worum geht es beim Spielen?</h3>
+            <p>Ganz grob zusammengefasst geht es in jeder Runde darum, mit den Steinen in der eigenen Hand ein komplettes Spielbild zu vervollständigen: Hierzu wird in jedem Zug ein Stein aufgenommen und einer abgelegt. Unter bestimmten Umständen können auch die von anderen abgelegten Steinen für die eigene Hand aufgenommen werden.
+                Der/die Gewinner*in der aktuellen Runde erhält Punkte von den anderen je nach bestimmten Kombinationen in der Hand und wer am Ende des Spiels nach mehreren gespielten Händen die meisten Punkte hat, gewinnt.
+                Das Grundprinzip ist nicht so kompliziert, doch es bieten sich viele komplexe und tiefere Strategien durch die vielen möglichen Kombinationen, die Einschätzungen, wie man die eigene Hand statistisch am schnellsten und am wertvollsten gewinnen könnte, sowie durch die Art der Punktberechnung, die zum Beispiel so angelegt ist, dass es auch sinnvoll sein kann, "defensiv" zu spielen, um nicht jemand anderem zum Sieg zu verhelfen, da man dadurch zu viele Punkte verlieren würde.<br>
+
+                Es ist ein sehr spannendes und vielseitiges Spiel mit einer guten Mischung aus komplexeren Strategiemöglichkeiten und Glück, welches alles abwechslungsreich hält.
+                Falls ihr interessiert oder neugierig seid, findet ihr in der "<a onclick="openContent(event, 'deutsche_links')">Links</a>"-Sektion auch eine Tutorial-Playlist, mit der man die detaillierten Regeln lernen kann oder ihr meldet euch einfach bei uns zum Spielen und wir bringen euch alles Wichtige bei.<br>
+                (Mail-Adresse: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>)</p>
         </div>
         <div id="about_us" class="content">
-            <p>Welcome to our website.<br>
+            <p style="padding-top: 50px;">Welcome to our website.<br>
                 We are a Riichi Mahjong club in Basel and we would like to regularly play mahjong together in order to facilitate offline games (which have their own dynamic and feel to them in comparison to the generally accesible online mahjong) in our region.<br>
                 Moreover, we would like to introduce more new players to mahjong, help them with learning the game and thus expand the mahjong community as well as get people enthusiastic about the depth, complexity, strategy and etiquette of the game,  so we can all appreciate new aspects of it together.</p>
+                <h2>About Mahjong</h2>
+                <p>Mahjong is a tile-based game for four players that originated in China and has since developed into many different variants (the solitaire game on smart phones and computers has only adopted the name and design of the tiles, but has nothing in common with actual mahjong in terms of gameplay). We play the Japanese version, also called Riichi Mahjong by some.</p>
+                <h3>How does the game play?</h3>
+                <p>In a nutshell, the aim of each round is to complete a winning hand with the tiles you have in your hand: To do this, one tile is drawn and one discarded each turn. Under certain circumstances, the tiles discarded by others can also be picked up and used for your own hand.
+                The winner of the current round receives points from the others depending on certain combinations in their hand and whoever has the most points at the end of the game (after several hands have been played) wins.
+                The basic principle is not that complicated, but there are many complex and more in-depth strategies due to the many possible winning combinations, your estimations of how you could statistically win your hand in the fastest and most valuable way, as well as due to the scoring, which, for example, is designed so that it can also make sense to play "defensively", i.e. not to help someone else win because you would lose too many points as a result.<br>
+                It is a very exciting and multifaceted game with a good mix of more complex strategy options and luck, which keeps everything rich in variety.
+
+                If you are interested or curious, you can also find a tutorial playlist in the "<a style="color: blue;" onclick="openContent(event, 'englische_links')">links</a>" section which will help you learn the detailed rules or you could simply contact us if you want to give it a try and we will teach you everything you need to know.<br>
+                (Mail address: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>)</p>
         </div>
         <div id="deutsche_pdfs" class="content">
-            <a href="Deutsch_Etikette.pdf" target="_blank">Etikette</a>
-            <a href="Deutsch_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Unser Mahjong Ruleset</a>
-            <a href="Deutsch_Hana_Mahjong_Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optionale Spielweise)</a>
+            <p style="padding-top: 50px;"><a href="Deutsch_Etikette.pdf" target="_blank">Etikette</a></p>
+            <p style="padding-top: 50px;"><a href="Deutsch_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Unser Mahjong Ruleset</a></p>
+            <p style="padding-top: 50px;"><a href="Deutsch_Hana_Mahjong_Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optionale Spielweise)</a></p>
         </div>
         <div id="englische_pdfs" class="content">
-            <a href="English_Etiquette.pdf" target="_blank">Etiquette</a>
-            <a href="English_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Our Mahjong Ruleset</a>
-            <a href="English_Hana_Mahjong_Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optional way to play)</a>
+            <p style="padding-top: 50px;"><a href="English_Etiquette.pdf" target="_blank">Etiquette</a></p>
+            <p style="padding-top: 50px;"><a href="English_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Our Mahjong Ruleset</a></p>
+            <p style="padding-top: 50px;"><a href="English_Hana_Mahjong_Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optional way to play)</a></p>
         </div>
         <div id="full_logo" class="content">
             <a><img src="full_logo.png" alt=""></a>
         </div>
         <div id="spielort" class="content">
-            <p>Wir spielen aktuell einmal wöchentlich (Samstag Nachmittag) in der Markthalle in Basel nahe dem Bahnhof SBB. Die Adresse ist Steinentorberg 20, Basel, CH 4051.<br>
+            <p style="padding-top: 50px;">Wir spielen aktuell einmal wöchentlich (Samstag Nachmittag) in der Markthalle in Basel nahe dem Bahnhof SBB. Die Adresse ist Steinentorberg 20, Basel, CH 4051.<br>
                 Zusätzlich gibt es auch ab und zu unregelmässige Treffen im Raum Bad Säckingen, da es dort auch Sets und einen Tisch gibt, jedoch weniger Spieler*innen.<br>
                 Weiterhin können bei Interesse auch andere, abweichende, spontane Termine abgemacht werden, bei Interesse einfach per Mail melden: riichi.basel@proton.me</p>
         </div>
         <div id="gaming_venue" class="content">
-            <p>Currently, we are having weekly meetups on Saturday afternoon at "Markthalle" in Basel near the SBB train station. The address is Steinentorberg 20, Basel, CH 4051.<br>
+            <p style="padding-top: 50px;">Currently, we are having weekly meetups on Saturday afternoon at "Markthalle" in Basel near the SBB train station. The address is Steinentorberg 20, Basel, CH 4051.<br>
                 Furthermore, there are some irregular games in the area of Bad Säckingen sometimes too since we have some sets and a table there but not as many players.<br>
                 Lastly, we can arrange some spontaneous events that differ from the regular schedule as well, if you are interested, just write us a mail at: riichi.basel@proton.me</p>
         </div>
-        <div id="social_links" class="content">
-            <a href="https://discord.gg/QdEepy256F" target="_blank">Discord</a>
+        <div id="deutsche_links" class="content">
+            <p style="padding-top: 50px;">Unser Discord-Server: <a href="https://discord.gg/QdEepy256F" target="_blank">Discord</a></p>
+            <p>Unsere Mail-Adresse: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a></p>
+            <p>Sehr gute Tutorial-Playlists, um japanisches Mahjong zu lernen: <a href="https://www.youtube.com/@LightGrunty/playlists" target="_blank">Youtube Playlist</a></p>
+            <p>Mahjong Soul, eine Website, auf der man gratis japanisches Mahjong spielen kann: <a href="https://mahjongsoul.game.yo-star.com/" target="_blank">Mahjong Soul</a></p>
+            <p>Ausführliche Terminologieliste, falls man etwas nachschlagen muss: <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">Terminologieliste</a></p>
+        </div>
+        <div id="englische_links" class="content">
+            <p style="padding-top: 50px;">Our Discord server: <a href="https://discord.gg/QdEepy256F" target="_blank">Discord</a></p>
+            <p>Our mail address: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a></p>
+            <p>Very good tutorial playlists for learning Japanese mahjong: <a href="https://www.youtube.com/@LightGrunty/playlists" target="_blank">Youtube Playlist</a></p>
+            <p>Mahjong Soul, a website where you can play Japanese mahjong for free: <a href="https://mahjongsoul.game.yo-star.com/" target="_blank">Mahjong Soul</a></p>
+            <p>Extensive list of terminology in case you need to look something up:  <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">List of Terminology</a></p>
         </div>
         
         
