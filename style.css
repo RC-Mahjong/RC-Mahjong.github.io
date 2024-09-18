@@ -1,3 +1,7 @@
+
+
+/* For desktop: */
+
 body{
     font-family: sans-serif;
     font-size: 15px;
@@ -7,12 +11,12 @@ body{
 
 .inner_main_menu {
     margin: 0 auto;
-    width: 1300px;
+    width: 100%;
 }    
 
 .inner_main_menu ul{
     margin: 0;
-    padding: 30px 0 0;
+    padding: 2.5% 0 0;
     list-style: none;
     text-align: right;
 }    
@@ -25,19 +29,34 @@ body{
 
 .inner_main_menu ul li:nth-child(1){
     float: left;
+    margin-left: 5%;
 }    
 
 .inner_main_menu ul li:nth-child(2){
     float: left;
+    margin-left: 15%;
 }     
 
+.inner_main_menu ul li:nth-child(3){
+    float: right;
+    margin-right: 15%;
+}    
+
+.inner_main_menu ul li:nth-child(4){
+    float: right;
+    margin-right: 15%;
+}    
+
 .inner_main_menu ul li a{
-    color: #262626;
-    font-size: 20px;
+    font-size: 100%;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
-    padding: 10px 100px;
+    padding: 10% 200% 10% 100%;
+}
+
+.inner_main_menu ul li:hover a{
+    margin-left: -100%
 }    
 
 .inner_main_menu ul li a:hover{
@@ -46,15 +65,15 @@ body{
 
 .inner_main_menu ul li ul{
     position: absolute;
-    top: 40px;
+    top: 10%;
     left: -9999999px;
-    width: 240px;
+    width: 100%;
     background: #262626;
-    padding: 0;
 }  
 
 .inner_main_menu ul li:hover ul{
-    left: 0px;
+    left: 0%;
+    padding: 10% 110% 10% 100%;
 }   
 
 .inner_main_menu ul li ul li{
@@ -100,21 +119,21 @@ body{
 }
 
 .logo_area{
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
     position: absolute;
     left: 50%;
     top: 0;
     content: "";
-    margin-left: -50px;
     text-align: center;
+    margin-left: -5%
 }
 .logo_area a{
     cursor: pointer;
 }
 .content p{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: center;
     align-items: center
 }
@@ -132,16 +151,27 @@ body{
 
 .content h2{
     padding-top: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: left;
     align-items: left
 }
 
 .content h3{
     padding-top: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: left;
     align-items: left
+}
+
+@media only screen and (max-width: 800px) {
+
+    .inner_main_menu ul{
+        margin: 0;
+        padding: 30% 0 0;
+        list-style: none;
+        text-align: right;
+    }  
+    
 }
