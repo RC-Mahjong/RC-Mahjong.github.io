@@ -126,7 +126,7 @@ body{
     top: 0;
     content: "";
     text-align: center;
-    margin-left: -5%
+    margin-left: -10%
 }
 .logo_area a{
     cursor: pointer;
@@ -173,5 +173,5 @@ body{
         list-style: none;
         text-align: right;
     }  
-    
+
 }
