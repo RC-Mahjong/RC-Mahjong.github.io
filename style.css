@@ -59,7 +59,7 @@ body{
     margin-left: -100%
 }    
 
-.inner_main_menu ul li {
+.inner_main_menu ul li:hover {
     cursor: pointer;
 }
 
