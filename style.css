@@ -1,5 +1,3 @@
-
-
 /* For desktop: */
 
 body{
@@ -9,135 +7,16 @@ body{
     line-height: 1.5em;
 }
 
-.inner_main_menu {
-    margin: 0 auto;
-    width: 100%;
-}    
-
-.inner_main_menu ul{
-    margin: 0;
-    padding: 2.5% 0 0;
-    list-style: none;
-    text-align: right;
-}    
-
-.inner_main_menu ul li{
-    float: none;
-    display: inline-block;
-    position: relative
-}  
-
-.inner_main_menu ul li:nth-child(1){
-    float: left;
-    margin-left: 5%;
-}    
-
-.inner_main_menu ul li:nth-child(2){
-    float: left;
-    margin-left: 15%;
-}     
-
-.inner_main_menu ul li:nth-child(3){
-    float: right;
-    margin-right: 15%;
-}    
-
-.inner_main_menu ul li:nth-child(4){
-    float: right;
-    margin-right: 15%;
-}    
-
-.inner_main_menu ul li a{
-    font-size: 100%;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: block;
-    padding: 10% 200% 10% 100%;
+.content{
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
-.inner_main_menu ul li:hover a{
-    margin-left: -100%
-}    
-
-.inner_main_menu ul li a:hover{
-    color: #6FDA44;
-}  
-
-.inner_main_menu ul li ul{
-    position: absolute;
-    top: 10%;
-    left: -9999999px;
-    width: 100%;
-    background: #262626;
-}  
-
-.inner_main_menu ul li:hover ul{
-    left: 0%;
-    padding: 10% 110% 10% 100%;
-}   
-
-.inner_main_menu ul li ul li{
-    float: left;
-    width: 100%;
-    text-align: left;
-}  
-
-.inner_main_menu ul li ul li a{color: #fff;
-    text-transform: capitalize;
-    font-size: 15px;
-}  
-
-.inner_main_menu ul li ul li a:hover{
-    background: #ddd;
-    color: #262626;
-}  
-
-.inner_main_menu ul li:hover a{
-    color: #6FDA44
-}  
-
-.inner_main_menu ul li:hover ul li a{
-    color: #ffffff
-}  
-
-.inner_main_menu ul li ul li a:hover{
-    color: #262626
-}  
-
-.inner_main_menu ul li ul li:hover a{
-    background: #ddd;
-    olor: #262626;
-}
-
-.inner_main_menu{
-    cursor: pointer;
-}
-
-#main_menu{
-    width: 100%;
-    position: relative;
-}
-
-.logo_area{
-    width: 10%;
-    height: 10%;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    content: "";
-    text-align: center;
-    margin-left: -10%
-}
-.logo_area a{
-    cursor: pointer;
-}
 .content p{
-    padding-left: 10%;
-    padding-right: 10%;
     justify-content: center;
     align-items: center
 }
-    
+
 .content a{color: blue;
     justify-content: center;
     align-items: center;
@@ -151,27 +30,31 @@ body{
 
 .content h2{
     padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
     justify-content: left;
     align-items: left
 }
 
 .content h3{
     padding-top: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
     justify-content: left;
     align-items: left
 }
 
-@media only screen and (max-width: 800px) {
+.navigationButton{
+    width: 20%;
+    padding: 2% 0% 2% 0%;
+    margin: 2%;
+    color: gray;
+    background-color: light-gray
 
-    .inner_main_menu ul{
-        margin: 0;
-        padding: 30% 0 0;
-        list-style: none;
-        text-align: right;
-    }  
+}
 
+.languageButton{
+    margin-right: 0
+}
+
+.languageButtons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%
 }
