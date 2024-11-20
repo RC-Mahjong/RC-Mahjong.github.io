@@ -76,7 +76,7 @@ function changeLanguage(lang) {
   });
   currentLanguage = lang
   if (currentContent == 'logo') {
-    document.getElementById('contentDiv').innerHTML = '<img src="full_logo.png" alt="" width="100%">'
+    document.getElementById('contentDiv').innerHTML = '<img src="images/full_logo.png" alt="" width="100%">'
   }
   else {
     document.getElementById('contentDiv').innerHTML = languageData[currentLanguage][currentContent];
@@ -87,7 +87,7 @@ function changeLanguage(lang) {
 
 function displayContent(content) {
   if (content == 'logo') {
-    document.getElementById('contentDiv').innerHTML = '<img src="full_logo.png" alt="" width="100%">'
+    document.getElementById('contentDiv').innerHTML = '<img src="images/full_logo.png" alt="" width="100%">'
   }
   else {
     document.getElementById('contentDiv').innerHTML = languageData[currentLanguage][content];
