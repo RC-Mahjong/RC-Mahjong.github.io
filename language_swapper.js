@@ -17,9 +17,9 @@ const languageData = {
 
                         If you are interested or curious, you can also find a tutorial playlist in the "<a onclick="displayContent('links_text')">links</a>" section which will help you learn the detailed rules or you could simply contact us if you want to give it a try and we will teach you everything you need to know.<br>
                         (Mail address: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>)`,
-      "pdfs_text": `<p style="padding-top: 50px;"><a href="English_Etiquette.pdf" target="_blank">Etiquette</a></p>
-                    <p style="padding-top: 50px;"><a href="English_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Our Mahjong Ruleset</a></p>
-                    <p style="padding-top: 50px;"><a href="English_Hana_Mahjong_Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optional way to play)</a></p>`,
+      "pdfs_text": `<p style="padding-top: 50px;"><a href="docs/English Etiquette.pdf" target="_blank">Etiquette</a></p>
+                    <p style="padding-top: 50px;"><a href="docs/English Ryanzou Chankan Ruleset.pdf" target="_blank">Our Mahjong Ruleset</a></p>
+                    <p style="padding-top: 50px;"><a href="docs/English Hana Mahjong Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optional way to play)</a></p>`,
       "venue_text": `Currently, we are having weekly meetups on Saturday afternoon at "Markthalle" in Basel near the SBB train station. The address is Steinentorberg 20, Basel, CH 4051.<br>
                     Furthermore, there are some irregular games in the area of Bad Säckingen sometimes too since we have some sets and a table there but not as many players.<br>
                     Lastly, we can arrange some spontaneous events that differ from the regular schedule as well, if you are interested, just write us a mail at: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>`, 
@@ -49,9 +49,9 @@ const languageData = {
                         Es ist ein sehr spannendes und vielseitiges Spiel mit einer guten Mischung aus komplexeren Strategiemöglichkeiten und Glück, welches alles abwechslungsreich hält.
                         Falls ihr interessiert oder neugierig seid, findet ihr in der "<a onclick="displayContent('links_text')">Links</a>"-Sektion auch eine Tutorial-Playlist, mit der man die detaillierten Regeln lernen kann oder ihr meldet euch einfach bei uns zum Spielen und wir bringen euch alles Wichtige bei.<br>
                         (Mail-Adresse: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>)`,
-      "pdfs_text": `<p style="padding-top: 50px;"><a href="Deutsch_Etikette.pdf" target="_blank">Etikette</a></p>
-                    <p style="padding-top: 50px;"><a href="Deutsch_Ryanzou_Chankan_Ruleset.pdf" target="_blank">Unser Mahjong Ruleset</a></p>
-                    <p style="padding-top: 50px;"><a href="Deutsch_Hana_Mahjong_Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optionale Spielweise)</a></p>`,
+      "pdfs_text": `<p style="padding-top: 50px;"><a href="docs/Deutsch Etikette.pdf" target="_blank">Etikette</a></p>
+                    <p style="padding-top: 50px;"><a href="docs/Deutsch Ryanzou Chankan Ruleset.pdf" target="_blank">Unser Mahjong Ruleset</a></p>
+                    <p style="padding-top: 50px;"><a href="docs/Deutsch Hana Mahjong Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optionale Spielweise)</a></p>`,
       "venue_text": `Wir spielen aktuell einmal wöchentlich (Samstag Nachmittag) in der Markthalle in Basel nahe dem Bahnhof SBB. Die Adresse ist Steinentorberg 20, Basel, CH 4051.<br>
                     Zusätzlich gibt es auch ab und zu unregelmässige Treffen im Raum Bad Säckingen, da es dort auch Sets und einen Tisch gibt, jedoch weniger Spieler*innen.<br>
                     Weiterhin können bei Interesse auch andere, abweichende, spontane Termine abgemacht werden, bei Interesse einfach per Mail melden: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>`, 
