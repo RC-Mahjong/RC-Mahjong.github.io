@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta name="description" content="We are a Swiss Riichi Mahjong club that is located in Basel (Switzerland). | Wir sind ein Schweizer Riichi Mahjong club der sich in Basel (Schweiz) befindet.">
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('de')) {
+            document.querySelector('meta[name="description"]').setAttribute("content", "Wir sind ein Schweizer Riichi-Mahjong-Club, der sich in Basel, Schweiz befindet. Kommt gerne zum Spielen vorbei.");
+            document.documentElement.lang = 'de';
+        } else {
+            document.querySelector('meta[name="description"]').setAttribute("content", "We are a Swiss Riichi Mahjong club located in Basel, Switzerland. Please come play with us.");
+            document.documentElement.lang = 'en';
+        }
+    </script>
+    <!--<meta name="description" content="We are a Swiss Riichi Mahjong club that is located in Basel (Switzerland). | Wir sind ein Schweizer Riichi Mahjong club der sich in Basel (Schweiz) befindet.">-->
     <meta name="keywords" content="Schweiz, Mahjong, Switzerland, Basel, Riichi">
     <meta name="author" content="Ryanzou Chankan Club">
-    <meta name="google-site-verification" content="txKySf8uo4OKPytiONBqjJsSAZHq-rliE72H4hspdIA" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -46,5 +54,3 @@
     <script src="language_swapper.js"></script>
 </body>
 </html>
-
-<!-- add favicon!!!-->
