@@ -17,9 +17,16 @@ const languageData = {
 
                         If you are interested or curious, you can also find a tutorial playlist in the "<a onclick="displayContent('links_text')">links</a>" section which will help you learn the detailed rules or you could simply contact us if you want to give it a try and we will teach you everything you need to know.<br>
                         (Mail address: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>)`,
-      "pdfs_text": `<p style="padding-top: 50px;"><a href="docs/English Etiquette.pdf" target="_blank">Etiquette</a></p>
-                    <p style="padding-top: 50px;"><a href="docs/English Ryanzou Chankan Ruleset.pdf" target="_blank">Our Mahjong Ruleset</a></p>
-                    <p style="padding-top: 50px;"><a href="docs/English Hana Mahjong Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optional way to play)</a></p>`,
+      "pdfs_text": `<h3> Main rules </h3>
+                    <p><a href="docs/English Ryanzou Chankan Ruleset.pdf" target="_blank">Our Mahjong Ruleset</a></p>
+                    <p><a href="docs/English Etiquette.pdf" target="_blank">Etiquette</a></p>
+                    
+                    <h3> Help and tips for beginners </h3>
+                    <p><a href="docs/English Mahjong basic summary and getting started.pdf" target="_blank">Introduction and basic summary</a></p>
+      
+                    <h3> Optional rules </h3>
+                    <p><a href="docs/English Hana Mahjong Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optional way to play)</a></p>
+                    <p><a href="docs/Englisch Optional and alternative rules.pdf" target="_blank">Compilation of alternative rulesets</a></p>`,
       "venue_text": `Currently, we are having weekly meetups on Saturday afternoon at "Markthalle" in Basel near the SBB train station. The address is Steinentorberg 20, Basel, CH 4051.<br>
                     Furthermore, there are some irregular games in the area of Bad Säckingen sometimes too since we have some sets and a table there but not as many players.<br>
                     Lastly, we can arrange some spontaneous events that differ from the regular schedule as well, if you are interested, just write us a mail at: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>`, 
@@ -27,7 +34,8 @@ const languageData = {
                     <p>Our mail address: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a></p>
                     <p>Very good tutorial playlists for learning Japanese mahjong: <a href="https://www.youtube.com/@LightGrunty/playlists" target="_blank">Youtube Playlist</a></p>
                     <p>Mahjong Soul, a website where you can play Japanese mahjong for free: <a href="https://mahjongsoul.game.yo-star.com/" target="_blank">Mahjong Soul</a></p>
-                    <p>Extensive list of terminology in case you need to look something up:  <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">List of Terminology</a>`
+                    <p>Extensive list of terminology in case you need to look something up:  <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">List of Terminology</a></p>
+                    <p>Stats and score sheet for our league games: <a href="https://docs.google.com/spreadsheets/d/1BOtgQBLJIfw0CTJbWap72vy0lLmMK3pAVPYLCh9ybiY/edit?usp=sharing" target="_blank">Link</a></p>`
     },
 
     "de": {
@@ -49,9 +57,16 @@ const languageData = {
                         Es ist ein sehr spannendes und vielseitiges Spiel mit einer guten Mischung aus komplexeren Strategiemöglichkeiten und Glück, welches alles abwechslungsreich hält.
                         Falls ihr interessiert oder neugierig seid, findet ihr in der "<a onclick="displayContent('links_text')">Links</a>"-Sektion auch eine Tutorial-Playlist, mit der man die detaillierten Regeln lernen kann oder ihr meldet euch einfach bei uns zum Spielen und wir bringen euch alles Wichtige bei.<br>
                         (Mail-Adresse: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>)`,
-      "pdfs_text": `<p style="padding-top: 50px;"><a href="docs/Deutsch Etikette.pdf" target="_blank">Etikette</a></p>
-                    <p style="padding-top: 50px;"><a href="docs/Deutsch Ryanzou Chankan Ruleset.pdf" target="_blank">Unser Mahjong Ruleset</a></p>
-                    <p style="padding-top: 50px;"><a href="docs/Deutsch Hana Mahjong Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optionale Spielweise)</a></p>`,
+      "pdfs_text": `<h3> Hauptregeln </h3>
+                    <p><a href="docs/Deutsch Ryanzou Chankan Ruleset.pdf" target="_blank">Unser Mahjong Ruleset</a></p>
+                    <p><a href="docs/Deutsch Etikette.pdf" target="_blank">Etikette</a></p>
+
+                    <h3> Hilfe und Tipps für Anfänger*innen </h3>
+                    <p><a href="docs/Deutsch Mahjong-Einführung.pdf" target="_blank">Einführung und Zusammenfassung Grundregeln</a></p>
+
+                    <h3> Optionale Regeln </h3>
+                    <p><a href="docs/Deutsch Hana Mahjong Ruleset.pdf" target="_blank">Hana Mahjong Ruleset (Optionale Spielweise)</a></p>
+                    <p><a href="docs/Deutsch Optionale und alternative Regeln.pdf" target="_blank">Zusammenstellung alternativer Rulesets</a></p>`,
       "venue_text": `Wir spielen aktuell einmal wöchentlich (Samstag Nachmittag) in der Markthalle in Basel nahe dem Bahnhof SBB. Die Adresse ist Steinentorberg 20, Basel, CH 4051.<br>
                     Zusätzlich gibt es auch ab und zu unregelmässige Treffen im Raum Bad Säckingen, da es dort auch Sets und einen Tisch gibt, jedoch weniger Spieler*innen.<br>
                     Weiterhin können bei Interesse auch andere, abweichende, spontane Termine abgemacht werden, bei Interesse einfach per Mail melden: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>`, 
@@ -59,7 +74,8 @@ const languageData = {
                     <p>Unsere Mail-Adresse: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a></p>
                     <p>Sehr gute Tutorial-Playlists, um japanisches Mahjong zu lernen: <a href="https://www.youtube.com/@LightGrunty/playlists" target="_blank">Youtube Playlist</a></p>
                     <p>Mahjong Soul, eine Website, auf der man gratis japanisches Mahjong spielen kann: <a href="https://mahjongsoul.game.yo-star.com/" target="_blank">Mahjong Soul</a></p>
-                    <p>Ausführliche Terminologieliste, falls man etwas nachschlagen muss: <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">Terminologieliste</a>`
+                    <p>Ausführliche Terminologieliste, falls man etwas nachschlagen muss: <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">Terminologieliste</a></p>
+                    <p>Dokument für Statistik und Punkte unserer League Games: <a href="https://docs.google.com/spreadsheets/d/1BOtgQBLJIfw0CTJbWap72vy0lLmMK3pAVPYLCh9ybiY/edit?usp=sharing" target="_blank">Link</a></p>`
     }
   };
 
