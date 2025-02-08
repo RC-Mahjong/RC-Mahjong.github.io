@@ -39,22 +39,3 @@ body{
     justify-content: left;
     align-items: left
 }
-
-.navigationButton{
-    width: 20%;
-    padding: 2% 0% 2% 0%;
-    margin: 2%;
-    color: gray;
-    background-color: light-gray
-
-}
-
-.languageButton{
-    margin-right: 0
-}
-
-.languageButtons{
-    display: flex;
-    justify-content: flex-end;
-    gap: 1%
-}

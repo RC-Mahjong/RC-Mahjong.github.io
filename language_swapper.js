@@ -1,6 +1,7 @@
 const languageData = {
     "en": {
       "about_us": "About Us",
+      "language": "Language",
       "pdfs": "PDFs",
       "venue": "Gaming Venue",
       "links": "Links",
@@ -40,6 +41,7 @@ const languageData = {
 
     "de": {
       "about_us": "Über Uns",
+      "language": "Sprache",
       "pdfs": "PDFs",
       "venue": "Spielort",
       "links": "Links",
@@ -72,7 +74,8 @@ const languageData = {
                     Weiterhin können bei Interesse auch andere, abweichende, spontane Termine abgemacht werden, bei Interesse einfach per Mail melden: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a>`, 
       "links_text": `Unser Discord-Server: <a href="https://discord.gg/QdEepy256F" target="_blank">Discord</a></p>
                     <p>Unsere Mail-Adresse: <a href="mailto:riichi.basel@proton.me">riichi.basel@proton.me</a></p>
-                    <p>Sehr gute Tutorial-Playlists, um japanisches Mahjong zu lernen: <a href="https://www.youtube.com/@LightGrunty/playlists" target="_blank">Youtube Playlist</a></p>
+                    <p>Sehr gute Tutorial-Playlists, um japanisches Mahjong zu lernen: 
+                    <a href="https://www.youtube.com/@LightGrunty/playlists" target="_blank">Youtube Playlist</a></p>
                     <p>Mahjong Soul, eine Website, auf der man gratis japanisches Mahjong spielen kann: <a href="https://mahjongsoul.game.yo-star.com/" target="_blank">Mahjong Soul</a></p>
                     <p>Ausführliche Terminologieliste, falls man etwas nachschlagen muss: <a href="https://riichi.wiki/List_of_terminology_by_alphabetical_order" target="_blank">Terminologieliste</a></p>
                     <p>Dokument für Statistik und Punkte unserer League Games: <a href="https://docs.google.com/spreadsheets/d/1BOtgQBLJIfw0CTJbWap72vy0lLmMK3pAVPYLCh9ybiY/edit?usp=sharing" target="_blank">Link</a></p>`
@@ -98,6 +101,7 @@ function changeLanguage(lang) {
     document.getElementById('contentDiv').innerHTML = languageData[currentLanguage][currentContent];
   }
 
+  $('#bs-navbar-collapse').collapse('hide');
 }
 
 
@@ -109,6 +113,8 @@ function displayContent(content) {
     document.getElementById('contentDiv').innerHTML = languageData[currentLanguage][content];
   }
   currentContent = content
+
+  $('#bs-navbar-collapse').collapse('hide');
 }
 
 

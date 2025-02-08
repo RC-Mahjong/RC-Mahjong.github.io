@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+
 <head>
-    <meta name="description" content="We are a Swiss Riichi Mahjong club that is located in Basel (Switzerland). | Wir sind ein Schweizer Riichi Mahjong club der sich in Basel (Schweiz) befindet.">
+    <meta name="description"
+        content="We are a Swiss Riichi Mahjong club that is located in Basel (Switzerland). | Wir sind ein Schweizer Riichi Mahjong club der sich in Basel (Schweiz) befindet.">
     <!-- script part doesn't work sadly, still keeping it here-->
     <script>
         const userLang = navigator.language || navigator.userLanguage;
@@ -23,37 +25,71 @@
     <meta property="og:title" content="Ryanzou Chankan Club">
     <meta property="og:description" content="We are a Swiss Riichi Mahjong club that is located in Basel, Switzerland.">
     <meta property="og:image" content="https://rc-mahjong.github.io/images/logo.png">
-  
+
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="rc-mahjong.github.io/">
     <meta property="twitter:url" content="https://rc-mahjong.github.io/">
     <meta name="twitter:title" content="Ryanzou Chankan Club">
-    <meta name="twitter:description" content="We are a Swiss Riichi Mahjong club that is located in Basel, Switzerland.">
+    <meta name="twitter:description"
+        content="We are a Swiss Riichi Mahjong club that is located in Basel, Switzerland.">
     <meta name="twitter:image" content="https://rc-mahjong.github.io/images/full_logo.png">
 
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Ryanzou Chankan Club</title>
 </head>
+
 <body>
-    <div class="languageButtons" data-nosnippet>
-        <button class="languageButton" onclick="changeLanguage('en')">English</button>
-        <button class="languageButton" onclick="changeLanguage('de')">Deutsch</button>
-    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Riichi Mahjong Basel</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-i18n="language">
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="changeLanguage('en')">English</a></li>
+                        <li><a href="#" onclick="changeLanguage('de')">Deutsch</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="displayContent('about_us_text')" data-i18n="about_us"></a></li>
+                <li><a href="#" onclick="displayContent('pdfs_text')" data-i18n="pdfs"></a></li>
+                <li><a href="#" onclick="displayContent('venue_text')" data-i18n="venue"></a></li>
+                <li><a href="#" onclick="displayContent('links_text')" data-i18n="links"></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
 
-    <div class="navigationButtons" data-nosnippet>
-        <button class="navigationButton" onclick="displayContent('about_us_text')"data-i18n="about_us"></button>
-        <button class="navigationButton" onclick="displayContent('pdfs_text')"data-i18n="pdfs"></button>
-        <button class="navigationButton" onclick="displayContent('venue_text')"data-i18n="venue"></button>
-        <button class="navigationButton" onclick="displayContent('links_text')"data-i18n="links"></button>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" id="contentDiv">
+                <a><img src="images/full_logo.png" alt="" width="100%"></a>
+                <p style="color:white;">We are a Swiss Riichi Mahjong club that is located in Basel (Switzerland CH). |
+                    Wir
+                    sind
+                    ein Schweizer Riichi Mahjong club der sich in Basel (Schweiz CH) befindet.</p>
+            </div>
+        </div>
     </div>
-
-    <div id="contentDiv" class="content">
-        <a><img src="images/full_logo.png" alt="" width="100%"></a>
-        <p style="color:white;">We are a Swiss Riichi Mahjong club that is located in Basel (Switzerland CH). | Wir sind ein Schweizer Riichi Mahjong club der sich in Basel (Schweiz CH) befindet.</p>
-    </div>
-
 
     <script src="language_swapper.js"></script>
 </body>
+
 </html>
