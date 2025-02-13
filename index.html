@@ -35,47 +35,56 @@
     <meta name="twitter:image" content="https://rc-mahjong.github.io/images/full_logo.png">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />
+    
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Ryanzou Chankan Club</title>
+
+    <script>
+    function languagePick(selectElement) {
+        var selectedValue = selectElement.value;
+        if (selectedValue === 'English') {
+            changeLanguage('en')
+        }
+        else if (selectedValue === 'Deutsch') {
+            changeLanguage('de')
+        }
+    }
+    </script>
 </head>
 
 <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Riichi Mahjong Basel</a>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-i18n="language">
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#" onclick="changeLanguage('en')">English</a></li>
-                        <li><a href="#" onclick="changeLanguage('de')">Deutsch</a></li>
-                    </ul>
-                </li>
-                <li><a href="#" onclick="displayContent('about_us_text')" data-i18n="about_us"></a></li>
-                <li><a href="#" onclick="displayContent('pdfs_text')" data-i18n="pdfs"></a></li>
-                <li><a href="#" onclick="displayContent('venue_text')" data-i18n="venue"></a></li>
-                <li><a href="#" onclick="displayContent('links_text')" data-i18n="links"></a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Riichi Mahjong Basel</a>
+                <a class="navbar-brand" href="#" onclick="changeLanguage('de')"><span class="flag-icon flag-icon-de"></span></a>
+                <a  class="navbar-brand"href="#" onclick="changeLanguage('en')"><span class="flag-icon flag-icon-us"></span></a>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" onclick="displayContent('about_us_text')" data-i18n="about_us"></a></li>
+                    <li><a href="#" onclick="displayContent('pdfs_text')" data-i18n="pdfs"></a></li>
+                    <li><a href="#" onclick="displayContent('venue_text')" data-i18n="venue"></a></li>
+                    <li><a href="#" onclick="displayContent('links_text')" data-i18n="links"></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
-      </nav>
+    </nav>
 
     <div class="container">
         <div class="row">
