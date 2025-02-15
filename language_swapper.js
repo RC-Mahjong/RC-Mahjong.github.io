@@ -2,6 +2,7 @@ const languageData = {
     "en": {
       "about_us": "About Us",
       "language": "Language",
+      "current_language": "EN"
       "pdfs": "PDFs",
       "venue": "Gaming Venue",
       "links": "Links",
@@ -42,6 +43,7 @@ const languageData = {
     "de": {
       "about_us": "Über Uns",
       "language": "Sprache",
+      "current_language": "DE"
       "pdfs": "PDFs",
       "venue": "Spielort",
       "links": "Links",
