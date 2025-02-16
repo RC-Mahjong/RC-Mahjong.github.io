@@ -39,10 +39,3 @@ body{
     justify-content: left;
     align-items: left
 }
-
-.dropdown-menu {
-    position: absolute;
-    top: 100%; /* Positions the dropdown directly below the dropdown toggle */
-    left: 0; /* Aligns the dropdown to the left of the toggle */
-    z-index: 1000; /* Ensures the dropdown is on top */
-}
