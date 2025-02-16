@@ -72,22 +72,21 @@
                 </button>
                 
                 <a class="navbar-brand" href="#" onclick="displayContent('logo')">Riichi Mahjong Basel</a>
-                <div class="btn-group">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a data-i18n="current_language"></a><i class="fas fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="languageDropdown">
-                        <li>
-                            <a class="dropdown-item" href="#" onclick="changeLanguage('de')">
-                                <span class="flag-icon flag-icon-de"></span> DE
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#" onclick="changeLanguage('en')">
-                                <span class="flag-icon flag-icon-us"></span> EN
-                            </a>
-                        </li>
-                    </div>
+                
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a data-i18n="current_language"></a><i class="fas fa-caret-down"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="languageDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('de')">
+                            <span class="flag-icon flag-icon-de"></span> DE
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('en')">
+                            <span class="flag-icon flag-icon-us"></span> EN
+                        </a>
+                    </li>
                 </div>
             </div>
 
