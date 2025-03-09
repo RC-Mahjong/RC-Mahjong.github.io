@@ -6,7 +6,7 @@ const languageData = {
       "pdfs": "PDFs",
       "venue": "Gaming Venue",
       "links": "Links",
-      "space": " ",
+      "space": "&nbsp",
       "about_us_text": `Welcome to our website.<br>
                         We are a Riichi Mahjong club in Basel and we would like to regularly play mahjong together in order to facilitate offline games (which have their own dynamic and feel to them in comparison to the generally accesible online mahjong) in our region.<br>
                         Moreover, we would like to introduce more new players to mahjong, help them with learning the game and thus expand the mahjong community as well as get people enthusiastic about the depth, complexity, strategy and etiquette of the game,  so we can all appreciate new aspects of it together.</p>
@@ -48,7 +48,7 @@ const languageData = {
       "pdfs": "PDFs",
       "venue": "Spielort",
       "links": "Links",
-      "space": " ",
+      "space": "&nbsp",
       "about_us_text": `Willkommen auf unserer Seite.<br>
                         Wir sind ein Riichi-Mahjongclub in Basel und möchten gerne regelmässig  gemeinsam Mahjong spielen und so offline-Spiele in unserer Gegend ermöglichen, die nochmal eine eigene Dynamik im Vergleich zum allgemein zugänglichen Online-Mahjong haben.<br>
                         Gerne möchten wir auch viele neue Spieler*innen für Mahjong begeistern, ihnen beim Erlernen des Spiels helfen und so die Community erweitern und bei anderen die Freude an der Tiefe, Komplexität, Strategie und Etikette des Spiels wecken, sodass wir alle gemeinsam neue Aspekte davon schätzen lernen können.</p>
